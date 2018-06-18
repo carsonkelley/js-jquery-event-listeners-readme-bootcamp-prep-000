@@ -11,6 +11,11 @@ function frameIt() {
   });  
 }
 
+function pressIt() {
+  $('input').on('keydown', function(key) {
+    
+  });
+}
 $(document).ready(function(){
 
 // call functions here
